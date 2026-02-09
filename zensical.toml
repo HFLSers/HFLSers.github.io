@@ -12,8 +12,9 @@ copyright = "Copyright &copy; 2026 HFLSers"
 
 # Navigation
 nav = [
-    { Home = [
-        { About = "index.md" },
+    { "主页" = [
+        { "关于" = "index.md" },
+        { "发表文章" = "post.md" }
     ]},
 ]
 
