@@ -10,11 +10,7 @@ repo = "fontawesome/brands/git-alt"
 
 copyright = "Copyright &copy; 2026 HFLSers"
 
-plugins = [
-    "search",
-    { "git-revision-date-localized" = { enable_creation_date = true } },
-    "git-authors",
-]
+plugins = ["search", "git-authors", "document-dates"]
 
 # Navigation
 nav = [
