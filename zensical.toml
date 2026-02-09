@@ -11,23 +11,16 @@ repo = "fontawesome/brands/git-alt"
 copyright = "Copyright &copy; 2026 HFLSers"
 
 # Navigation
-nav = [
-    { "主页" = [
-        { "关于" = "index.md" },
-        { "发表文章" = "post.md" }
-    ]},
-]
+nav = [{ "主页" = [{ "关于" = "index.md" }, { "发表文章" = "post.md" }] }]
 
 extra_javascript = [
     "javascripts/katex.js",
     "https://unpkg.com/katex@0/dist/katex.min.js",
     "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js",
-    "https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.5.0/dist/svg-pan-zoom.min.js"
+    "https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.5.0/dist/svg-pan-zoom.min.js",
 ]
 
-extra_css = [
-    "https://unpkg.com/katex@0/dist/katex.min.css",
-]
+extra_css = ["https://unpkg.com/katex@0/dist/katex.min.css"]
 
 [project.theme]
 # logo = "images/logo.png"
@@ -37,9 +30,9 @@ features = [
     "navigation.sections",
     "navigation.path",
     "navigation.footer",
-    "content.code.copy"
+    "content.code.copy",
 ]
-custom_dir = "overrides"
+# custom_dir = "overrides"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
