@@ -41,7 +41,7 @@ features = [
     "navigation.footer",
     "content.code.copy",
 ]
-# custom_dir = "overrides"
+custom_dir = "overrides"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
