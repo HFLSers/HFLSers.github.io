@@ -4,9 +4,11 @@ comments: true
 
 # 投稿指南
 
-该网站使用 Markdown 格式存储文章。建议直接使用 Markdown 写作，或者使用 [Docx Markdown 转换器](https://word2md.com/) [^1].
+该网站使用 Markdown 格式存储文章，[教程](https://markdown.com.cn/basic-syntax/)。
 
-[^1]: [https://word2md.com/](https://word2md.com/) 与此网站无关。
+建议直接使用 Markdown 写作，或者使用 [Docx Markdown 转换器](https://word2md.com/) [^1]。
+
+[^1]: [https://markdown.com.cn/basic-syntax/](https://markdown.com.cn/basic-syntax/) 和 [https://word2md.com/](https://word2md.com/) 与此网站无关。
 
 ## 分区投稿
 
