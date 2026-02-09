@@ -5,5 +5,7 @@ description = "A site for HFLSers"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "mkdocs-git-authors-plugin>=0.10.0",
+    "mkdocs-git-revision-date-localized-plugin>=1.5.1",
     "zensical>=0.0.15",
 ]
