@@ -1,3 +1,3 @@
 # HFLSers.github.io
 
-A guide for HFLSers
+A site for HFLSers

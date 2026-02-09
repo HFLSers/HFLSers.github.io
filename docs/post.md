@@ -8,14 +8,13 @@ comments: true
 
 ## 分区投稿
 
-为了方便管理，请将您的文章投稿到对应的目录下：
+我们目前将网站分为以下板块：
 
-- **学术探究**: `docs/sections/study/`
-- **社团活动**: `docs/sections/club/`
-- **校园生活**: `docs/sections/life/`
-- **校友风采**: `docs/sections/alumni/`
-
-例如，如果您写了一篇关于物理竞赛的文章，请将其命名为 `my-physics-contest.md` 并放置在 `docs/sections/study/` 目录下。
+- **个人分享**: `docs/personal/`
+- **学术探究**: `docs/study/`
+- **社团活动**: `docs/club/`
+- **校园生活**: `docs/life/`
+- **校友风采**: `docs/alumni/`
 
 ## 投稿步骤
 
