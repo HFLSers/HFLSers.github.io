@@ -20,6 +20,7 @@ nav = [
     { "社团活动" = "club/index.md" },
     { "校园生活" = "life/index.md" },
     { "校友风采" = "alumni/index.md" },
+    { "聊天" = "chat/index.md" },
 ]
 
 extra_javascript = [
