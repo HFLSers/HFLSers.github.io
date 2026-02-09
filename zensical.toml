@@ -11,7 +11,16 @@ repo = "fontawesome/brands/git-alt"
 copyright = "Copyright &copy; 2026 HFLSers"
 
 # Navigation
-nav = [{ "主页" = [{ "关于" = "index.md" }, { "发表文章" = "post.md" }] }]
+nav = [
+    { "主页" = [
+        { "关于" = "index.md" },
+        { "投稿指南" = "post.md" },
+    ] },
+    { "学术探究" = "study/index.md" },
+    { "社团活动" = "club/index.md" },
+    { "校园生活" = "life/index.md" },
+    { "校友风采" = "alumni/index.md" },
+]
 
 extra_javascript = [
     "javascripts/katex.js",
