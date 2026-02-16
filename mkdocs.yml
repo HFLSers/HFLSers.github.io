@@ -97,9 +97,9 @@ nav:
       - 关于: index.md
       - 投稿指南: post.md
       - 反馈与建议: feedback.md
+  - 发帖: blog/index.md
   - 个人分享: personal/index.md
   - 学术探究: study/index.md
   - 社团活动: club/index.md
   - 校园生活: life/index.md
   - 校友风采: alumni/index.md
-  - 聊天: chat/index.md
