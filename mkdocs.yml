@@ -1,0 +1,104 @@
+site_name: HFLSers
+site_author: HFLSers
+site_description: This is for HFLSers.
+site_url: https://HFLSers.github.io
+
+repo_url: https://github.com/HFLSers/HFLSers.github.io
+repo_name: HFLSers/HFLSers.github.io
+
+copyright: Copyright &copy; 2026 HFLSers
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.footer
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/monitor
+        name: Switch to light mode
+      primary: indigo
+      accent: indigo
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: indigo
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+      primary: indigo
+      accent: indigo
+  custom_dir: overrides
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HFLSers
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.5.0/dist/svg-pan-zoom.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+plugins:
+  - search
+  - git-authors
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - 主页:
+      - 关于: index.md
+      - 投稿指南: post.md
+      - 反馈与建议: feedback.md
+  - 个人分享: personal/index.md
+  - 学术探究: study/index.md
+  - 社团活动: club/index.md
+  - 校园生活: life/index.md
+  - 校友风采: alumni/index.md
+  - 聊天: chat/index.md
